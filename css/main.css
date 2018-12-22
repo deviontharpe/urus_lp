@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fefcf4;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  max-width: 67.2%;
+  height: 690px;
+  margin: 0 auto;
+  margin-top: 5%;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  background-color: #f6f6f6;
+  -webkit-box-shadow: 1px -6px 45px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -6px 45px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px -6px 45px -12px rgba(0, 0, 0, 0.75);
+}
+
+.active {
+  font-weight: 900;
+  color: black;
+  border-bottom: 1px solid #ffda14;
+}
+
+/* ------------------- HEADER -------------------- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+header .logo {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 225%;
+  margin-left: 160px;
+  padding-top: 20px;
+}
+
+header .car-nav ul {
+  list-style: none;
+  margin-right: 325px;
+  padding-top: 20px;
+}
+
+header .car-nav ul li {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+header .car-nav ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 300;
+  transition: ease-in 0.1s;
+}
+
+header .car-nav ul a:hover,
+header .car-nav ul a:active {
+  font-weight: 700;
+  border-bottom: 1px solid #ffda14;
+}
+
+header .car-nav ul .active {
+  font-weight: 700;
+  border-bottom: 1px solid #ffda14;
+}
+
+/* ------------------- SECTION (CAR IMAGE) -------------------- */
+
+.car-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-top: 10px;
+}
+
+.car-img img {
+  max-width: 75%;
+  max-height: 76%;
+}
+
+.car-img h1 {
+  text-transform: uppercase;
+  font-size: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 12%;
+  right: 13%;
+  font-weight: 900;
+}
+
+.car-img br {
+  line-height: 5px;
+}
+
+.car-img h1 span {
+  text-transform: uppercase;
+  font-size: 600%;
+  color: #ffda14;
+}
+
+/* ------------------- SECTION (CAR IMAGE) --------------------
+c*/
+.car-specs {
+  position: absolute;
+  top: 45%;
+  right: 23%;
+  font-size: 90%;
+}
+
+.mb {
+  margin-bottom: 40px;
+}
+
+.car-specs span {
+  font-weight: 400;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.car-specs p {
+  font-weight: 900;
+  margin-top: 1px;
+  font-size: 130%;
+}
+
+/* ------------------- ASIDE (CAR LINKS) -------------------- */
+aside {
+  position: absolute;
+  top: 41%;
+  right: 18%;
+  font-size: 80%;
+  text-align: right;
+}
+
+aside nav ul {
+  list-style: none;
+}
+
+aside nav ul li {
+  margin-bottom: 17px;
+}
+
+aside nav ul a {
+  text-decoration: none;
+  color: #acacac;
+  text-transform: uppercase;
+}
+
+aside nav ul li a:hover,
+aside nav ul li a:active {
+  color: black;
+  font-weight: 900;
+  border-bottom: 1px solid #ffda14;
+}
