@@ -1,3 +1,6 @@
+@media only screen and (max-width: 1400px) {
+}
+
 @media only screen and (max-width: 1023px) {
   header {
     display: flex;
@@ -56,12 +59,12 @@
     font-size: 75%;
     top: 160px;
     left: 4%;
-    float: left;
     margin: 0 auto;
+    text-align: center;
+    margin-right: 20%;
   }
 
   #car-img h1 span {
-    float: right;
   }
 
   .car-img {
@@ -76,12 +79,13 @@
     font-size: 80%;
     display: flex;
     margin: 0 auto;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: -40%;
-    align-items: center;
+    flex-direction: column;
     width: 60%;
-    justify-content: space-between;
+    justify-content: center;
     padding-left: -3px;
+    text-align: center;
 
     /* position: absolute;
     top: 60%;
@@ -94,7 +98,27 @@
 }
 
 @media only screen and (max-width: 375px) {
-  body {
-    display: none;
+  header #logo {
+    font-size: 100%;
+    text-align: center;
+  }
+
+  #car-specs {
+    margin-top: 25%;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  header #logo {
+    font-size: 100%;
+    text-align: center;
+  }
+
+  #car-img h1 {
+    margin-right: 5%;
+  }
+
+  #car-specs {
+    margin-top: 25%;
   }
 }
